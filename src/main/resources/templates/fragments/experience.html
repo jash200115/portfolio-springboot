@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="experience-section">
+    <section class="section experience" id="experience">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">
+                    My professional journey and educational background
+                </p>
+            </div>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-person-chalkboard"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2023 - July 2023</div>
+                        <h3 class="timeline-title">Summer Intern at MasterCard </h3>
+                        <h4 class="timeline-subtitle">MasterCard</h4>
+                        <ul class="timeline-description">
+                            <li>Developed multiple Splunk dashboards to visualize real-time system metrics (CPU, RAM, Disk usage) for platforms like Chef, Artifactory, WAF, and Splunk using advanced SPL queries and diverse visualizations including pie charts and time-series graphs.</li>
+                            <li>Implemented automated Splunk dashboard deployment via Stash by extending Splunk’s ko deployer with a custom Python-based dashboard deployer module.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2024 - Present</div>
+                        <h3 class="timeline-title">Developer</h3>
+                        <h4 class="timeline-subtitle">MasterCard</h4>
+                        <ul class="timeline-description">
+                            <li>
+                                Led planning, system design, and growth initiatives across tools such as Artifactory, Chef, Splunk, Packer, PRTG, Xray, Bitbucket, and WAF, with strong ownership of Artifactory including project proposals and strategic planning.
+                            </li>
+                            <li>
+                                Developed a production-ready Packer template for Ubuntu 22.10 with Azure Arc agent pre-integrated, enabling streamlined and consistent VM provisioning.
+                            </li>
+                            <li>
+                                Built strong debugging skills through log analysis and reverse engineering while resolving support tickets during on-call rotations.
+                            </li>
+                            <li>
+                                I’ve expanded my role into Java backend development, building applications using Spring Boot with IntelliJ IDEA.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
